@@ -29,15 +29,16 @@ main:
     selected: true
   
   - title: "Toppings: CPU-Assisted, Rank-Aware Adapter Serving for LLM Inference"
-    author: <strong><u>Suyi Li</u>*</strong>, Hanfeng Lu*, Tianyuan Wu, Minchen Yu, Qizhen Weng, Xusheng Chen, Yizhou Shan, Binhang Yuan, Wei Wang
+    authors: <strong><u>Suyi Li</u>*</strong>, Hanfeng Lu*, Tianyuan Wu, Minchen Yu, Qizhen Weng, Xusheng Chen, Yizhou Shan, Binhang Yuan, Wei Wang
     conference_short: ATC
     conference: USENIX Annual Technical Conference <strong>(ATC)</strong>, 2025.
     source: https://www.usenix.org/conference/atc25/presentation/li-suyi-toppings
     selected: true
 
   - title: "Golgi: Performance-Aware, Resource-Efficient Function Scheduling for Serverless Computing"
-    author: <strong><u>Suyi Li</u></strong>, Wei Wang, Jun Yang, Guangzhen Chen, Daohe Lu
+    authors: <strong><u>Suyi Li</u></strong>, Wei Wang, Jun Yang, Guangzhen Chen, Daohe Lu
     conference_short: SoCC
     conference: ACM Symposium on Cloud Computing <strong>(SoCC)</strong>, 2023.
     source: https://dl.acm.org/doi/10.1145/3620678.3624645
+    award: Best Paper Award
     selected: true
