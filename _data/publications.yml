@@ -1,22 +1,29 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+  - title: "DiFlow: A System for Micro-Serving Text-to-Image Diffusion Workflows"
+    authors: Lingyun Yang*, <strong><u>Suyi Li</u>* <small>(Co-first author)</small></strong>, Tianyu Feng, Xiaoxiao Jiang, Zhipeng Di, Weiyi Lu, Kan Liu, Yinghao Yu, Tao Lan, Guodong Yang, Lin Qu, Liping Zhang, Wei Wang
+    conference_short: SOSP
+    conference: ACM Symposium on Operating Systems Principles <strong>(SOSP)</strong>, 2026.
+    source: https://arxiv.org/abs/2604.08123
+    selected: true
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba"
+    authors: <strong><u>Suyi Li</u>* <small>(Co-first author)</small></strong>, Lingyun Yang*, Haoxuan Yu, Sheng Yao, Tianyuan Wu, Xiaoxiao Jiang, Hanfeng Lu, Kangjin Wang, Chenhao Wang, Shenglin Xu, Lun Wang, Qingyang Duan, Shenghao Liang, Xiu Lin, Meng Zhang, Wenchao Wu, Yinghao Yu, Guodong Yang, Liping Zhang, Wei Wang
+    conference_short: OSDI
+    conference: USENIX Symposium on Operating Systems Design and Implementation <strong>(OSDI)</strong>, 2026.
+    source: https://www.usenix.org/conference/osdi26/presentation/li-suyi
+    selected: true
+
+  - title: "FlashPS: Efficient Generative Image Editing with Mask-aware Caching and Scheduling"
+    authors: Xiaoxiao Jiang*, <strong><u>Suyi Li</u>* <small>(Co-first author)</small></strong>, Lingyun Yang, Tianyu Feng, Zhipeng Di, Weiyi Lu, Guoxuan Zhu, Xiu Lin, Kan Liu, Yinghao Yu, Tao Lan, Guodong Yang, Lin Qu, Liping Zhang, Wei Wang
+    conference_short: EuroSys
+    conference: ACM European Conference on Computer Systems <strong>(EuroSys)</strong>, 2026.
+    source: https://dl.acm.org/doi/10.1145/3767295.3769379
+    selected: false
+
+  - title: "Katz: Efficient Workflow Serving for Diffusion Models with Many Adapters"
+    authors: <strong><u>Suyi Li</u>* <small>(Co-first author)</small></strong>, Lingyun Yang*, Xiaoxiao Jiang, Hanfeng Lu, Dakai An, Zhipeng Di, Weiyi Lu, Jiawei Chen, Kan Liu, Yinghao Yu, Tao Lan, Guodong Yang, Lin Qu, Liping Zhang, Wei Wang
+    conference_short: ATC
+    conference: USENIX Annual Technical Conference <strong>(ATC)</strong>, 2025.
+    source: https://www.usenix.org/conference/atc25/presentation/li-suyi-katz
+    selected: true
