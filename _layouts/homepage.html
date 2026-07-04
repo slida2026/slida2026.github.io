@@ -53,7 +53,9 @@
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
-        {% if site.email %}
+        {% if site.email_image %}
+        <img src="{{ site.email_image | relative_url }}" alt="Email address" style="height: 1.1rem;">
+        {% elsif site.email %}
         <email>{{ site.email }}</email>
         {% endif %}
 
