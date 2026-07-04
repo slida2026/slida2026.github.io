@@ -30,4 +30,4 @@
 {% endfor %}
 
 </ol>
-</div>_includes/publications.md
+</div>
