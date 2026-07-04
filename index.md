@@ -8,7 +8,7 @@ layout: homepage
 
 <p style="font-size: 1.08rem;">My research interests center on cloud computing and its intersection with machine learning, with a special focus on <strong>resource management</strong> and <strong>generative AI model serving (Text-to-Image and LLM)</strong>.</p>
 
-<span style="font-style: italic;">I am open to potential collaborations. Please feel free to contact me if you are interested in my research.</span>
+<span style="font-style: italic; font-size: 1.08rem;">I am open to potential collaborations. Please feel free to contact me if you are interested in my research.</span>
 
 
 {% include_relative _includes/publications.md %}

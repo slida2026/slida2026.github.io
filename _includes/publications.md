@@ -16,7 +16,7 @@
     {% endif %}
   </div>
   <div class="publication-content">
-      <div class="title"><a href="{{ link.source }}">{{ link.title }}</a>{% if link.award %} <i class="fa-solid fa-trophy" title="{{ link.award }}" aria-label="{{ link.award }}" style="color: #d4a017; font-size: 0.9em;"></i>{% endif %}</div>
+      <div class="title"><a href="{{ link.source }}">{{ link.title }}</a>{% if link.award %} <i class="fa-solid fa-trophy" title="{{ link.award }}" aria-label="{{ link.award }}" style="color: #d4a017; font-size: 0.9em;"></i> <span style="font-size: 0.9em; color: #666;">({{ link.award }})</span>{% endif %}</div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
