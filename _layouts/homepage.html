@@ -33,6 +33,31 @@
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
+    <style>
+      .image.avatar.avatar-hover {
+        position: relative;
+        display: inline-block;
+      }
+
+      .image.avatar.avatar-hover img {
+        transition: opacity 0.2s ease-in-out;
+      }
+
+      .image.avatar.avatar-hover .avatar-hover-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+      }
+
+      .image.avatar.avatar-hover:hover .avatar-default-image {
+        opacity: 0;
+      }
+
+      .image.avatar.avatar-hover:hover .avatar-hover-image {
+        opacity: 1;
+      }
+    </style>
 
   </head>
   <body>
@@ -40,7 +65,10 @@
       <header>
         
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        <a class="image avatar avatar-hover">
+          <img class="avatar-default-image" src="{{ site.avatar }}" alt="avatar" />
+          <img class="avatar-hover-image" src="{{ '/assets/img/touxiang2.jpg' | relative_url }}" alt="avatar hover" />
+        </a>
         {% endif %}
 
         <h1>{{ site.name }}</h1>
