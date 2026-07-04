@@ -1,28 +1,28 @@
 main:
 
   - title: "DiFlow: A System for Micro-Serving Text-to-Image Diffusion Workflows"
-    authors: Lingyun Yang*, <strong><u>Suyi Li</u>* <small>(Co-first author)</small></strong>, Tianyu Feng, Xiaoxiao Jiang, Zhipeng Di, Weiyi Lu, Kan Liu, Yinghao Yu, Tao Lan, Guodong Yang, Lin Qu, Liping Zhang, Wei Wang
+    authors: Lingyun Yang*, <strong><u>Suyi Li</u>*</strong>, Tianyu Feng, Xiaoxiao Jiang, Zhipeng Di, Weiyi Lu, Kan Liu, Yinghao Yu, Tao Lan, Guodong Yang, Lin Qu, Liping Zhang, Wei Wang
     conference_short: SOSP
     conference: ACM Symposium on Operating Systems Principles <strong>(SOSP)</strong>, 2026.
     source: https://arxiv.org/abs/2604.08123
     selected: true
 
   - title: "Heterogeneity at Hyperscale: Characterization and Scheduling of Large Production AI Clusters at Alibaba"
-    authors: <strong><u>Suyi Li</u>* <small>(Co-first author)</small></strong>, Lingyun Yang*, Haoxuan Yu, Sheng Yao, Tianyuan Wu, Xiaoxiao Jiang, Hanfeng Lu, Kangjin Wang, Chenhao Wang, Shenglin Xu, Lun Wang, Qingyang Duan, Shenghao Liang, Xiu Lin, Meng Zhang, Wenchao Wu, Yinghao Yu, Guodong Yang, Liping Zhang, Wei Wang
+    authors: <strong><u>Suyi Li</u>*</strong>, Lingyun Yang*, Haoxuan Yu, Sheng Yao, Tianyuan Wu, Xiaoxiao Jiang, Hanfeng Lu, Kangjin Wang, Chenhao Wang, Shenglin Xu, Lun Wang, Qingyang Duan, Shenghao Liang, Xiu Lin, Meng Zhang, Wenchao Wu, Yinghao Yu, Guodong Yang, Liping Zhang, Wei Wang
     conference_short: OSDI
     conference: USENIX Symposium on Operating Systems Design and Implementation <strong>(OSDI)</strong>, 2026.
     source: https://www.usenix.org/conference/osdi26/presentation/li-suyi
     selected: true
 
   - title: "FlashPS: Efficient Generative Image Editing with Mask-aware Caching and Scheduling"
-    authors: Xiaoxiao Jiang*, <strong><u>Suyi Li</u>* <small>(Co-first author)</small></strong>, Lingyun Yang, Tianyu Feng, Zhipeng Di, Weiyi Lu, Guoxuan Zhu, Xiu Lin, Kan Liu, Yinghao Yu, Tao Lan, Guodong Yang, Lin Qu, Liping Zhang, Wei Wang
+    authors: Xiaoxiao Jiang*, <strong><u>Suyi Li</u>*</strong>, Lingyun Yang, Tianyu Feng, Zhipeng Di, Weiyi Lu, Guoxuan Zhu, Xiu Lin, Kan Liu, Yinghao Yu, Tao Lan, Guodong Yang, Lin Qu, Liping Zhang, Wei Wang
     conference_short: EuroSys
     conference: ACM European Conference on Computer Systems <strong>(EuroSys)</strong>, 2026.
     source: https://dl.acm.org/doi/10.1145/3767295.3769379
-    selected: false
+    selected: true
 
   - title: "Katz: Efficient Workflow Serving for Diffusion Models with Many Adapters"
-    authors: <strong><u>Suyi Li</u>* <small>(Co-first author)</small></strong>, Lingyun Yang*, Xiaoxiao Jiang, Hanfeng Lu, Dakai An, Zhipeng Di, Weiyi Lu, Jiawei Chen, Kan Liu, Yinghao Yu, Tao Lan, Guodong Yang, Lin Qu, Liping Zhang, Wei Wang
+    authors: <strong><u>Suyi Li</u>*</strong>, Lingyun Yang*, Xiaoxiao Jiang, Hanfeng Lu, Dakai An, Zhipeng Di, Weiyi Lu, Jiawei Chen, Kan Liu, Yinghao Yu, Tao Lan, Guodong Yang, Lin Qu, Liping Zhang, Wei Wang
     conference_short: ATC
     conference: USENIX Annual Technical Conference <strong>(ATC)</strong>, 2025.
     source: https://www.usenix.org/conference/atc25/presentation/li-suyi-katz
